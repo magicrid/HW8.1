@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 
-void counting_function() 
+static void counting_function()
 {
     static int sum{ 1 };
 
